@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget xmlmns = "http://www.w3.org/ns/widgets"
+xmlns:gap = "http//phonegap.com/ns1.0"
+id = "com.phonegap.example3"
+versionCode = "10"
+version = "1.0.0">
+
+<!-- verdionCode is optinal and Android only -->
+
+<name>Aplicacion Tres Volcan Popocatepetl</name>
+
+<description>
+Aplicacion que muestra informacion del volcan popocatepetl
+</description>
+
+<preference name ="phonegap-version" value="3.1.0" />
+
+<author href="https://build.phonegap.com" email="support@phonegap.com">
+juan pablo gonzalez varela
+</author>
+
+<gap:plugin name="org.apache.cordova.device" version="0.2.12" />
+<gap:plugin name="org.apache.cordova.vibration" version="0.3.0" />
+<gap:plugin name="org.apache.cordova.dialogs" version="0.2.6" />
+
+
+<!-- Colocar icon app -->
+
+<icon src="res/android/Teepee-icon.PNG" />
+</widget>
